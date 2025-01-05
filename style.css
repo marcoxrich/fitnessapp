@@ -1,0 +1,123 @@
+/* General element CSS: */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center; /* Centers items vertically */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+label {
+    font-size: 16px;
+    text-align: center;
+    color: #000; 
+    margin-bottom: 10px; /* Space between buttons */
+    width: 200px;
+    padding: 10px 20px;
+}
+
+a {
+    font-size: 16px;
+    text-align: center;
+    background-color: #a1a1a1;
+    color: #000; /* Black text */
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+
+/* Class/ID specific CSS: */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    width: 100%;
+    background-color: #c7c7c7;
+    box-sizing: border-box;
+}
+
+.header .left {
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.header .center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header .right {
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.header a {
+    margin: 0 10px;
+    font-size: 16px;
+    background-color: #a1a1a1;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+#signupredirect {
+    background-color: #ffffff;
+    border: #ffffff;
+    color: rgb(118, 120, 255);
+    text-decoration: none;
+}
+
+#signupredirect:hover {
+    text-decoration: underline;
+    color: rgb(52, 56, 255);
+}
+
+#homeredirect {
+    background-color: #ffffff;
+    border: #ffffff;
+    color: rgb(118, 120, 255);
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0%;
+}
+
+#homeredirect:hover {
+    text-decoration: underline;
+    color: rgb(52, 56, 255);
+    font-size: 1em;
+    padding: 0%;
+}
